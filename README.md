@@ -1,0 +1,2 @@
+# PHP Ternary Operator and Null Value Handling
+This repository demonstrates an uncommon bug in PHP related to using the ternary operator when dealing with null values.  The code in `bug.php` showcases the issue: attempting to perform arithmetic operations directly on a potentially null value returned by the ternary operator can lead to unexpected results or errors.  The solution, provided in `bugSolution.php`, addresses this by explicitly handling the null case before performing any operations.
